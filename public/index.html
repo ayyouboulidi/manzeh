@@ -11,40 +11,14 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <!--added temporary-->
-    <link rel="alternate" type="application/rss+xml" 
-    title="Cépage Gourmand - Restaurant &amp; vins à Tournefeuille &raquo; Restaurant Flux des commentaires" 
-    href="https://www.cepagegourmand.fr/restaurant-2/feed/" />
 
-    <link rel='stylesheet' id='rs-plugin-settings-css'  
-    href='https://www.cepagegourmand.fr/wp-content/plugins/revslider/rs-plugin/css/settings.css?rev=4.6.0&#038;ver=3.9.19' 
-    type='text/css' media='all' />
-
-    <link rel='stylesheet' id='main-theme-font-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C600&#038;subset=latin%2Clatin-ext&#038;ver=3.9.19' type='text/css' media='all' />
-    <link rel='stylesheet' id='menu-nav-theme-font-css'  href='https://fonts.googleapis.com/css?family=Trochut%3A400%2C300%2C600&#038;subset=latin%2Clatin-ext&#038;ver=3.9.19' type='text/css' media='all' />
-    <link rel='stylesheet' id='custom-style-css'  href='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/less/custom.css?ver=1' type='text/css' media='screen' />
-
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/plugins/createit-jquery-3level-accordion-menu/js/jquery-ui-effects.js?ver=3.9.19'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/plugins/createit-jquery-3level-accordion-menu/js/ct.3LevelAccordion.min.js?ver=3.9.19'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/plugins/createit-jquery-drilldown-menu/js/ctDrillDown.js?ver=3.9.19'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?rev=4.6.0&#038;ver=3.9.19'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.6.0&#038;ver=3.9.19'></script>
-    <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?sensor=false&#038;ver=1.0'></script>
-    <script type='text/javascript' src='https://www.youtube.com/iframe_api?ver=1.0'></script>
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.cepagegourmand.fr/xmlrpc.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.cepagegourmand.fr/wp-includes/wlwmanifest.xml" /> 
-    <link rel='shortlink' href='https://www.cepagegourmand.fr/' />
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-43712228-3']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
+    <script type='text/javascript' src='%PUBLIC_URL%/jquery.js'></script>
+    <script type='text/javascript' src='%PUBLIC_URL%/jquery-migrate.js'></script>
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/plugins/createit-jquery-3level-accordion-menu/js/jquery-ui-effects.js?ver=3.9.19'></script> -->
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/plugins/createit-jquery-3level-accordion-menu/js/ct.3LevelAccordion.min.js?ver=3.9.19'></script> -->
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/plugins/createit-jquery-drilldown-menu/js/ctDrillDown.js?ver=3.9.19'></script> -->
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?rev=4.6.0&#038;ver=3.9.19'></script> -->
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.6.0&#038;ver=3.9.19'></script> -->
     <script type="text/javascript">
       var l10n = {
         'January' : 'Janvier',
@@ -86,7 +60,7 @@
 
       var monthId = { 0 : 'January',1 : 'February',2 : 'March',3 :'April',4 : 'May',5 : 'June',6 : 'July',7 : 'August',8 : 'September',9 : 'October', 10 : 'November', 11 : 'December'};
 
-      var themeUrl = 'https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp';
+      var themeUrl = 'http://www.cepagegourmand.fr/wp-content/themes/barnelli-wp';
       var displayMonthHeader = 1;
       var displayYearHeader = 1;
       var displayOptions = {"month_header_view":"yes","year_header_view":"yes","default_calendar_view":"grid"};
@@ -100,28 +74,28 @@
       var turnOffAmazingMenu = false;
       var disableDjax = true;
     </script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/ajaxcomments.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/transition.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/jquery.ba-throttle-debounce.min.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/carousel.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/transit.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/jquery.colorbox-min.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/imagesloaded.pkgd.min.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/jquery.superslides.min.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/owl.carousel.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/jquery.nicescroll.min.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/jquery.tubular.1.0.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/modernizr-2.6.2.min.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/event_calendar.js?ver=1.0'></script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/main.js?ver=1.0'></script>
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/ajaxcomments.js?ver=1.0'></script> -->
+     <script type='text/javascript' src='%PUBLIC_URL%/transition.js'></script> 
+    <script type='text/javascript' src='%PUBLIC_URL%/ba-throttle-debounce.js'></script>
+    <script type='text/javascript' src='%PUBLIC_URL%/carousel.js'></script>
+     <script type='text/javascript' src='%PUBLIC_URL%/transit.js'></script> 
+     <script type='text/javascript' src='%PUBLIC_URL%/color-box.js'></script> 
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/imagesloaded.pkgd.min.js?ver=1.0'></script> -->
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/jquery.superslides.min.js?ver=1.0'></script> -->
+    <script type='text/javascript' src='%PUBLIC_URL%/owl-carousel.js'></script>
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/jquery.nicescroll.min.js?ver=1.0'></script> -->
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/jquery.tubular.1.0.js?ver=1.0'></script> -->
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/modernizr-2.6.2.min.js?ver=1.0'></script> -->
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/event_calendar.js?ver=1.0'></script> -->
+    <script type='text/javascript' src='%PUBLIC_URL%/mymain.js'></script>
     <script type='text/javascript'>
     /* <![CDATA[ */
-    var sendContactFormMessage = {"ajaxUrl":"https:\/\/www.cepagegourmand.fr\/wp-admin\/admin-ajax.php"};
-    var sendReservationFormMessage = {"ajaxUrl":"https:\/\/www.cepagegourmand.fr\/wp-admin\/admin-ajax.php"};
+    var sendContactFormMessage = {"ajaxUrl":"http:\/\/www.cepagegourmand.fr\/wp-admin\/admin-ajax.php"};
+    var sendReservationFormMessage = {"ajaxUrl":"http:\/\/www.cepagegourmand.fr\/wp-admin\/admin-ajax.php"};
     /* ]]> */
     </script>
-    <script type='text/javascript' src='https://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/contact-form.js?ver=1.0'></script>
-    <script src="https://www.jscache.com/wejs?wtype=cdswritereviewlg&amp;uniq=437&amp;locationId=7047159&amp;lang=fr&amp;lang=fr&amp;display_version=2"></script>
+    <!-- <script type='text/javascript' src='http://www.cepagegourmand.fr/wp-content/themes/barnelli-wp/js/contact-form.js?ver=1.0'></script> -->
+    <!-- <script src="http://www.jscache.com/wejs?wtype=cdswritereviewlg&amp;uniq=437&amp;locationId=7047159&amp;lang=fr&amp;lang=fr&amp;display_version=2"></script> -->
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
