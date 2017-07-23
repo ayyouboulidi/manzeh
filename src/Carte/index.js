@@ -126,7 +126,7 @@ export default class Carte extends Component {
                     <div className="row mt-3">
                         <div className="col-10">
                             <div className="title">Pizza Fruits de mer</div>
-                            <div className="description"> .... </div>
+                            <div className="description"> Sauce tomate - Mozzarella - Crevettes - Calamars - Champignons - Origan </div>
                         </div>
                         <div className="col-2">
                             <div className="title">70 DH</div>
@@ -135,7 +135,7 @@ export default class Carte extends Component {
                     <div className="row mt-3">
                         <div className="col-10">
                             <div className="title">Pizza Bolognaine</div>
-                            <div className="description"> .... </div>
+                            <div className="description"> Sauce Tomate - Mozzarella - Viande hachée - Origan </div>
                         </div>
                         <div className="col-2">
                             <div className="title">60 DH</div>
@@ -144,7 +144,7 @@ export default class Carte extends Component {
                     <div className="row mt-3">
                         <div className="col-10">
                             <div className="title">Pizza Margarita</div>
-                            <div className="description"> .... </div>
+                            <div className="description"> Sauce Tomate - Mozzarella - Tomate cerise - Olives noire - Origan </div>
                         </div>
                         <div className="col-2">
                             <div className="title">50 DH</div>
@@ -153,7 +153,7 @@ export default class Carte extends Component {
                     <div className="row mt-3">
                         <div className="col-10">
                             <div className="title">Pizza Végétariaine</div>
-                            <div className="description"> .... </div>
+                            <div className="description"> Sauce tomate - Mozzarella - Légumes grillés - Tomate cerise - Oignons - Origan </div>
                         </div>
                         <div className="col-2">
                             <div className="title">60 DH</div>
@@ -162,7 +162,7 @@ export default class Carte extends Component {
                     <div className="row mt-3">
                         <div className="col-10">
                             <div className="title">Pizza 4 saisons</div>
-                            <div className="description"> .... </div>
+                            <div className="description"> Sauce tomate - Mozzarella - Viande hachée - Dinde - Crevette - Calamar - Charcuterie - Origan </div>
                         </div>
                         <div className="col-2">
                             <div className="title">60 DH</div>
