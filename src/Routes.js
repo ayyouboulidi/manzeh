@@ -2,12 +2,20 @@ import React from 'react';
 import { Router, Route } from 'react-router';
 import Home from './Home';
 import Carte from './Carte';
+import Info from './Info';
+import Resto from './Resto';
+import Piscine from './Piscine';
+import Reservation from './Reservation';
 
 
 export default (props) => (
     <Router {...props}>
         <Route path="/" component={Home} />
         <Route path="/la-carte" component={Carte} />
+        <Route path="/info" component={Info} />
+        <Route path="/le-resto" component={Resto} />
+        <Route path="/piscine" component={Piscine} />
+        <Route path="/reservation" component={Reservation} />
         <Route path="*" component={Home} />
     </Router>
 );

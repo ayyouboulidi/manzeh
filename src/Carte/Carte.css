@@ -1,106 +1,18 @@
-	.barnelli-menu .menu-container {
-		font-family: 'Trochut', cursive !important;
-	}
-	.barnelli-menu .menu-container p, .barnelli-menu .menu-container span, .barnelli-menu .menu-container h2, .barnelli-menu .menu-container h1 {
-		font-family: 'Trochut', cursive !important;
-	}
-	.top-menu {
-		color: #ad2727	}
-
-	.barnelli-menu h1 {
-		font-size: 20px !important;
-		color: #ad2727 !important;
-	}
-
-	.barnelli-menu .menu-list .menu-item .title:before{
-		background: #ad2727	}
-	#second-menu .menu-header h2 span:before,
-	#third-menu .menu-header h2 span:before {
-		background: #ad2727	}
-	#second-menu .menu-header h2 span:after,
-	#third-menu .menu-header h2 span:after {
-		background: #ad2727	}
-	.barnelli-menu i {
-		font-size: 20px !important;
-    }
-    
-    /* custom css */
-	#yocalendar thead th { color: #333 !important; }
-.event-calendar-description h2 a { color:  !important; }
-#yocalendar-switcher a, #event-header, #yocalendar th, #yocalendar .yocalendar-paymentLink, .yocalendar-paymentLink, p.additionalInfo, .months-holder .event-calendar-prev i, .months-holder .event-calendar-next i { color: #333 }
-#yocalendar td { border-color: #f2f2f2 !important; }
-#yocalendar td > span { color: #333 !important; }
-#yocalendar-months .months-holder { border-bottom-color: #f2f2f2 !important}
-#yocalendar td.event-cell { background-color: f5f5f5 !important; color: #333 !important; }
-#yocalendar td.event-cell:hover { background-color: #333 !important;  }
-#yocalendar td.event-cell span { color: #333 !important; }
-#yocalendar td.event-cell:hover span { color: #fff !important; }
-#yocalendar .event-counter { background-color: #ccc !important; color: #fff !important; }
-.yocalendar-overlay .yocalendar-overlay-close { background-color: #000; }
-
-#restaurant .square, #blog .square, #post .square { background: #2b2924 }
- 
-#restaurant .square-header { background: #2b2924 }
-
-#restaurant .square-post .title, #restaurant .square-header .title {
-	color: #dd3333;
-	font-family: Trochut, Helvetica, Arial, sans-serif !important;
-	font-size: 32px;
+h1 {
+    font-size: 25px !important;
+    color: rgb(173, 39, 39) !important;
 }
 
-#restaurant .square-header .description {
-	color: #e0e0e0;
-	font-family: Trochut, Helvetica, Arial, sans-serif !important;
-	font-size: 20px;
+h2 {
+    font-size: 20px !important;
+    color: rgb(173, 39, 39) !important;
 }
 
-#restaurant .square-post-hover .title {
-	color: #ffffff;
-	font-family: Trochut, Helvetica, Arial, sans-serif !important;
-	font-size: 32px;
+.title {
+    color: rgb(173, 39, 39);
 }
 
-#restaurant .square-post .description, #restaurant .square-post-hover .description {
-	color: #dd3333;
-	font-family: Trochut, Helvetica, Arial, sans-serif !important;
-	font-size: 20px;
+.description {
+    color: #a4a4a4;
+    font-size: 12px;
 }
-
-#restaurant .square-post .days span.small-day, #restaurant .square-post .days span.large-day {
-	color: #ffffff;	
-}
-
-div.navbar.hidden-xs { background-color: rgba(255,255,255,.87) !important; }
-.main-menu { background: rgb(255,255,255) !important; }
-#flyout-container .flyout-menu>li { background-color: rgba(255,255,255,.82) !important; }
-#flyout-container .flyout-menu>li>ul>li { background-color: rgba(255,255,255,.77) !important; }
-#flyout-container .flyout-menu>li>ul>li>ul>li { background-color: rgba(255,255,255,.72) !important; }
-
-#flyout-container .flyout-menu li { border-top: 1px solid #3a3836 !important; }
-
-#flyout-container .flyout-menu .menu-item-has-children .open-children i, .main-menu .reorder i { color: #3a3836 !important; }
-
-.main-menu .reorder.flyout-open, #flyout-container .flyout-menu .menu-item-has-children.subnav-open > .open-children { background: #3a3836 !important; }
-
-.navbar .main-nav.single-separator>li:before { border-top: 1px solid #ad2727 !important; }
-.navbar .main-nav.single-separator>li:after { border-bottom: 1px solid #ad2727 !important; }
-.navbar .main-nav.double-separator>li:before {
-	border-top: 1px solid #ad2727 !important;
-	border-bottom: 1px solid #ad2727 !important;
-}
-.navbar .main-nav.double-separator>li:after {
-	border-top: 1px solid #ad2727 !important;
-	border-bottom: 1px solid #ad2727 !important;
-}
-#flyout-container .flyout-menu li a {
-	font-family: "Trochut", Helvetica, Arial, sans-serif !important;
-	font-size: 22px !important;
-	color: #3a3836 !important;
-}
-
-.navbar .main-nav > li > div > a > span {
-	font-family: "Trochut", Helvetica, Arial, sans-serif;
-	font-size: 22px !important;
-	color: #3a3836;
-}
-
