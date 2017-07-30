@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../Header';
 import OwlCarousel from 'react-owl-carousel';
+import Footer from '../Footer';
 
 export default class Galerie extends Component {
     render () {
@@ -9,8 +10,8 @@ export default class Galerie extends Component {
                <Header />
                <div className="container my-5">
                     <div className="row d-flex justify-content-center">
-                        <div className="col-md-10 col-md-offset-1">
-                            <h1>Notre séléction de photos pour vous mettre ....</h1>
+                        <div className="col-md-10 col-md-offset-1 d-flex justify-content-center">
+                            <h1>Un avant-goût sélectionné rien que pour vous</h1>
                         </div>
                     </div>
                    <div className="row">
@@ -34,6 +35,7 @@ export default class Galerie extends Component {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }

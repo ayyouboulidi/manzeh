@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../Header';
 import './Carte.css';
+import Footer from '../Footer';
 
 export default class Carte extends Component {
     render () {
@@ -9,7 +10,7 @@ export default class Carte extends Component {
                 <Header />
                 <div className="container my-5">
                     <div className="row d-flex justify-content-center">
-                        <div className="col-md-10 col-md-offset-1">
+                        <div className="col-md-10 col-md-offset-1 d-flex justify-content-center">
                             <h1>La carte - Menzah Sidi Harazem - Restaurant &amp; Piscine à Fès</h1>
                         </div>
                     </div>
@@ -436,6 +437,7 @@ export default class Carte extends Component {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }
