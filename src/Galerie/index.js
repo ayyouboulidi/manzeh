@@ -15,7 +15,7 @@ export default class Galerie extends Component {
                     </div>
                    <div className="row">
                        <div className="col-12">
-                            <OwlCarousel className="owl-theme" loop margin={10} autoplay items={1}>
+                            <OwlCarousel className="owl-theme" loop margin={10} autoplay items={2}>
                                 <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
                                 <div class="item"><img src="/img/cafe-interieur-2.jpg" alt="café intérieur Menzah"/></div>
                                 <div class="item"><img src="/img/paysage2.jpg" alt="café intérieur Menzah"/></div>
