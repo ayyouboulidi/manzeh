@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Header from '../Header';
-import { Link } from 'react-router';
 import Tile from '../Tile';
 import './Home.css';
 

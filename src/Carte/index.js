@@ -15,8 +15,8 @@ export default class Carte extends Component {
                     </div>
                     <div className="row mt-5">
                         <div className="col-md-10">
-                            <h2 style={{color: "#ad2727 !important", fontSize: "20px !important"}}>
-                                LES MENUS Petit déjeuner <i className="fa fa-cutlery"></i>
+                            <h2>
+                                Nos menus Petit-déjeuner <i className="fa fa-cutlery"></i>
                             </h2>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ export default class Carte extends Component {
                     </div>
                     <div className="row mt-3">
                         <div className="col-10">
-                            <div className="title">Extra accompagnements</div>
+                            <div className="title italic">Extra accompagnements</div>
                         </div>
                     </div>
                     <div className="row mt-3">
@@ -109,8 +109,92 @@ export default class Carte extends Component {
                     </div>
                     <div className="row mt-5">
                         <div className="col-md-10">
-                            <h2 style={{color: "#ad2727 !important", fontSize: "20px !important"}}>
-                                LES pizzas <i className="fa fa-cutlery"></i>
+                            <h2>
+                                Nos Entrées <i className="fa fa-cutlery"></i>
+                            </h2>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Salade Menzah</div>
+                            <div className="description"> Laitue - Pomme de terre - Riz - Concombre - Fromage rouge - Pêche - Ananas - Coeur de palmier - Crabe - Maïs - Poulet - Charcuterie - Sauce Menzah </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">50 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Salade Riche</div>
+                            <div className="description"> Mélange de salades - Tomate - Crevettes - Riz - Maïs - Ananas - Avocat - Fromage - Gruyère - Concombre - Carottes rapèes - Coeur de palmier  </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">50 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Salade Niçoise (grande)</div>
+                            <div className="description"> Mélange de salades - Tomate - Carottes rapées - Concombre - Pomme de terre - Maïs - Thon </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">50 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Salade Niçoise (moyenne)</div>
+                            <div className="description"> Mélange de salades - Tomate - Carottes rapées - Concombre - Pomme de terre - Maïs - Thon </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">30 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Salade Niçoise (petite)</div>
+                            <div className="description"> Mélange de salades - Tomate - Carottes rapées - Concombre - Pomme de terre - Maïs - Thon </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">20 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Salade Marocaine</div>
+                            <div className="description"> Tomate -Oignons - Concombre </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">10 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-md-10">
+                            <h2>
+                                Nos Tajines <i className="fa fa-cutlery"></i>
+                            </h2>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Tajine Viande (moyen)</div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">50 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Tajine Viande (grand)</div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">70 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-md-10">
+                            <h2>
+                                Nos Pizzas <i className="fa fa-cutlery"></i>
                             </h2>
                         </div>
                     </div>
@@ -178,7 +262,7 @@ export default class Carte extends Component {
                     </div>
                     <div className="row mt-3">
                         <div className="col-10">
-                            <div className="title">Mini Pizzas</div>
+                            <div className="title italic">Mini Pizzas</div>
                         </div>
                     </div>
                     <div className="row mt-3">
@@ -235,6 +319,120 @@ export default class Carte extends Component {
                         </div>
                         <div className="col-2">
                             <div className="title">40 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-md-10">
+                            <h2>
+                                Nos Possions <i className="fa fa-cutlery"></i>
+                            </h2>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Friture mixte</div>
+                            <div className="description"> Crevettes - Calamar - Sole - Mérlan </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">70 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Tajine PilPil</div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">45 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Tajine Poissons</div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">70 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-md-10">
+                            <h2>
+                                Nos Paninis <i className="fa fa-cutlery"></i>
+                            </h2>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Fruits de mer</div>
+                            <div className="description"> Crevettes - Calamar - Champignons - Fromage </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">35 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Viande hachée</div>
+                            <div className="description"> Viande hachée - Fromage </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">30 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Poulet</div>
+                            <div className="description"> Dinde - Fromage </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">30 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Charcuterie</div>
+                            <div className="description"> Charcuterie - Fromage </div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">25 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">mixte</div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">30 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-md-10">
+                            <h2>
+                                Nos Sandwichs <i className="fa fa-cutlery"></i>
+                            </h2>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Panaché</div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">30 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Viande hachée</div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">25 DH</div>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Dinde</div>
+                        </div>
+                        <div className="col-2">
+                            <div className="title">25 DH</div>
                         </div>
                     </div>
                 </div>

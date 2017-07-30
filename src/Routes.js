@@ -6,6 +6,7 @@ import Info from './Info';
 import Resto from './Resto';
 import Piscine from './Piscine';
 import Reservation from './Reservation';
+import Galerie from './Galerie';
 
 
 export default (props) => (
@@ -16,6 +17,7 @@ export default (props) => (
         <Route path="/le-resto" component={Resto} />
         <Route path="/piscine" component={Piscine} />
         <Route path="/reservation" component={Reservation} />
+        <Route path="/galerie-photo" component={Galerie} />
         <Route path="*" component={Home} />
     </Router>
 );

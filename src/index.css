@@ -19,3 +19,7 @@ h1 {
   font-size: 25px;
   color: rgb(173, 39, 39);
 }
+
+.italic {
+  font-style: italic;
+}
