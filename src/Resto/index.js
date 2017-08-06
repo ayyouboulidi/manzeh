@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import OwlCarousel from 'react-owl-carousel';
-import './Carte.css';
+import './Resto.css';
 
-export default class Carte extends Component {
+export default class Resto extends Component {
     render () {
         return (
            <div>
@@ -27,6 +28,7 @@ export default class Carte extends Component {
                         <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
                     </OwlCarousel>
                 </div>
+                <Footer/>
             </div>
         )
     }

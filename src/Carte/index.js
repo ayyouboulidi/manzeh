@@ -325,7 +325,7 @@ export default class Carte extends Component {
                     <div className="row mt-5">
                         <div className="col-md-10">
                             <h2>
-                                Nos Possions <i className="fa fa-cutlery"></i>
+                                Nos Poissons <i className="fa fa-cutlery"></i>
                             </h2>
                         </div>
                     </div>

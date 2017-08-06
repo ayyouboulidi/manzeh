@@ -37,13 +37,13 @@ export default class Header extends Component {
                                 </Link>
                             </div>
                             <div className="row height border-top">
-                                <Link to="/info" className="link col-12 clickable">
-                                    <span>Infos</span>
+                                <Link to="/galerie-photo" className="link col-12 clickable">
+                                    <span>Galerie</span>
                                 </Link>
                             </div>
                             <div className="row height border-top">
                                 <Link to="/le-resto" className="link col-12 clickable">
-                                    <span>Le resto</span>
+                                    <span>Réstaurant</span>
                                 </Link>
                             </div>
                             <div className="row height border-top">
@@ -70,10 +70,10 @@ export default class Header extends Component {
                             <Link to="/" className="link"><span>Accueil</span></Link>
                         </div>
                         <div className="col-md-2 align-self-center">
-                            <Link to="/le-resto" className="link"><span>Le resto</span></Link>
+                            <Link to="/le-resto" className="link"><span>Réstaurant</span></Link>
                         </div>
                         <div className="col-md-1 align-self-center">
-                            <Link to="/info" className="link"><span>Infos</span></Link>
+                            <Link to="/galerie-photo" className="link"><span>Galerie</span></Link>
                         </div>
                         <div className="col-md-1 align-self-center">
                             <Link to="/" className="link"><img src="/img/logo.png" style={{width: "50px", height:"50px"}} alt="" /></Link>
