@@ -31,9 +31,8 @@ export default class Resto extends Component {
                     <div className="row my-3">
                         <div className="col-12">
                             <OwlCarousel className="owl-theme" loop margin={10} autoplay items={1}>
-                                <div className="owl-item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/cafe-interieur-2.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/cafe.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
                             </OwlCarousel>
                         </div>
                     </div>

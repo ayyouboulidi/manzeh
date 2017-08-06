@@ -29,35 +29,35 @@ export default class Header extends Component {
                         </div>
                     </div>
                     {this.state.menuDisplay ?
-                    <div className="row index">
-                        <div className="container">
+                    <div className="row">
+                        <div className="col">
                             <div className="row height border-top">
-                                <Link to="/" className="link col-12 clickable">
+                                <Link to="/" className="link col-12 clickable d-flex justify-content-center align-items-center">
                                     <span>Accueil</span>
                                 </Link>
                             </div>
                             <div className="row height border-top">
-                                <Link to="/galerie-photo" className="link col-12 clickable">
+                                <Link to="/galerie-photo" className="link col-12 clickable d-flex justify-content-center align-items-center">
                                     <span>Galerie</span>
                                 </Link>
                             </div>
                             <div className="row height border-top">
-                                <Link to="/le-resto" className="link col-12 clickable">
+                                <Link to="/le-resto" className="link col-12 clickable d-flex justify-content-center align-items-center">
                                     <span>Restaurant</span>
                                 </Link>
                             </div>
                             <div className="row height border-top">
-                                <Link to="/la-carte" className="link col-12 clickable">
+                                <Link to="/la-carte" className="link col-12 clickable d-flex justify-content-center align-items-center">
                                     <span>Carte</span>
                                 </Link>
                             </div>
                             <div className="row height border-top">
-                                <Link to="/piscine" className="link col-12 clickable">
+                                <Link to="/piscine" className="link col-12 clickable d-flex justify-content-center align-items-center">
                                     <span>Piscine</span>
                                 </Link>
                             </div>
                             <div className="row height border-top border-bottom">
-                                <Link to="/reservation" className="link col-12 clickable">
+                                <Link to="/reservation" className="link col-12 clickable d-flex justify-content-center align-items-center">
                                     <span>Réservation</span>
                                 </Link>
                             </div>	
