@@ -11,79 +11,65 @@ export default class Home extends Component {
 		<Header />
 		<div className="container mt-5">
 			<div className="row">
-				<div className="col-md-6 col-12">
-					<div className="row">
-						<div className="col-12 py-2">
-							<Tile img="/img/cafe.jpg" to="/le-resto" height="400px">	
-								<div>
-									<p className="title">Découvrez le restaurant</p>
-									<p className="description">en famille, entre collègues, entre amis ...</p>
-								</div>
-								<div>
-									<p className="title">Salle intérieure, terrasse et piscine</p>
-									<p className="description">Découvrez un lieu de convivialité et de plaisir </p>
-								</div>
-							</Tile>
+				<div className="col-md-6 col-12 py-2">
+					<Tile img="/img/cafe.jpg" to="/le-resto" height="410px">	
+						<div>
+							<p className="title">Découvrez le restaurant</p>
+							<p className="description">en famille, entre collègues, entre amis ...</p>
 						</div>
-					</div>
+						<div>
+							<p className="title">Salle intérieure, terrasse et piscine</p>
+							<p className="description">Découvrez un lieu de convivialité et de plaisir </p>
+						</div>
+					</Tile>
 				</div>
-				 <div className="col-md-6 col-12">
-					<div className="row">
-						<div className="col-md-6 col-12 py-2">
-							<Tile img="/img/cafe-interieur.jpg" to="/le-resto" height="200px">	
-								<div>
-									<p className="title">Le restaurant</p>
-									<p className="description">paysages</p>
-								</div>
-								<div>
-									<p className="title">Découvrez</p>
-									<p className="description">Les alentours </p>
-								</div>
-							</Tile>
+				 <div className="col-md-6 col-12 py-2">
+					 <div className="container-fluid p-0">
+						<div className="row">
+							<div className="col" style={{marginBottom: "10px"}}>
+								<Tile img="/img/paysage2.jpg" to="/galerie-photo" height="200px">	
+									<div>
+										<p className="title">Photothèque</p>
+										<p className="description">Quelques photos</p>
+									</div>
+									<div>
+										<p className="title">Quelques images</p>
+										<p className="description">du restaurant </p>
+									</div>
+								</Tile>
+							</div>
 						</div>
-						<div className="col-md-6 col-12 py-2">
-							<Tile img="/img/paysage2.jpg" to="/galerie-photo" height="200px">	
-								<div>
-									<p className="title">Photothèque</p>
-									<p className="description">Quelques photos</p>
-								</div>
-								<div>
-									<p className="title">Quelques images</p>
-									<p className="description">du restaurant </p>
-								</div>
-							</Tile>
-						</div>
-					</div>
-					<div className="row">
-						<div className="col-md-12 col-12">
-							<Tile img="/img/piscine2.jpg" to="/piscine" height="200px">	
-								<div>
-									<p className="title">Piscine</p>
-									<p className="description">Bronzez-vous!</p>
-								</div>
-								<div>
-									<p className="description">.... </p>
-								</div>
-							</Tile>
+						<div className="row">
+							<div className="col">
+								<Tile img="/img/piscine2.jpg" to="/piscine" height="200px">	
+									<div>
+										<p className="title">Piscine</p>
+										<p className="description">Bronzez-vous!</p>
+									</div>
+									<div>
+										<p className="description">.... </p>
+									</div>
+								</Tile>
+							</div>
 						</div>
 					</div>
 				</div> 
 			</div>
 			  <div className="row">
 				<div className="col-md-3 col-12 py-2">
-					<Tile img="http://www.cepagegourmand.fr/wp-content/uploads/2014/08/IMG_1141.jpg" to="/la-carte" height="200px">	
+					<Tile img="/img/cafe-interieur.jpg" to="/le-resto" height="200px">	
 						<div>
-							<p className="title">La carte</p>
-							<p className="description">Une cuisine de saison</p>
+							<p className="title">Le restaurant</p>
+							<p className="description">paysages</p>
 						</div>
 						<div>
-							<p className="title">Découvrez les plats de Notre chef cuisine</p>
-							<p className="description">et profitez de nos menus </p>
+							<p className="title">Découvrez</p>
+							<p className="description">Les alentours </p>
 						</div>
 					</Tile>
 				</div>
 				<div className="col-md-3 col-12 py-2">
-					<Tile img="http://www.cepagegourmand.fr/wp-content/uploads/2014/08/IMG_1188.jpg" to="/la-carte" height="200px">	
+					<Tile img="http://www.cepagegourmand.fr/wp-content/uploads/2014/08/IMG_1141.jpg" to="/la-carte" height="200px">	
 						<div>
 							<p className="title">La carte</p>
 							<p className="description">Une cuisine de saison</p>

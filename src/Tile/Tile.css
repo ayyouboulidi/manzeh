@@ -41,7 +41,7 @@
 }
 
 .title {
-    color: #dd3333;
+    color: #dd3333 !important;
     font-family: Trochut, Helvetica, Arial, sans-serif !important;
     font-size: 20px;
 }

@@ -8,27 +8,37 @@ export default class Resto extends Component {
     render () {
         return (
            <div>
-               <Header />
-               <div className="container my-5">
-                    <OwlCarousel className="owl-theme" loop margin={10} autoplay items={2}>
-                        <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/cafe-interieur-2.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/paysage2.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/paysage3.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/piscine.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                        <div class="item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
-                    </OwlCarousel>
+                <Header />
+                <div className="container my-5">
+                    <div className="row d-flex justify-content-center">
+                        <div className="col-md-10 col-md-offset-1 d-flex justify-content-center">
+                            <h1>Un petit creux? rejoignez-nous...</h1>
+                        </div>
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-md-10">
+                            <h2>
+                                Horaires d'ouverture
+                            </h2>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-10">
+                            <div className="title">Restaurant & Café</div>
+                            <div className="description"> Du Lundi au Dimanche 7h-00h </div>
+                        </div>
+                    </div>
+                    <div className="row my-3">
+                        <div className="col-12">
+                            <OwlCarousel className="owl-theme" loop margin={10} autoplay items={1}>
+                                <div className="owl-item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/cafe-interieur-2.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/cafe.jpg" alt="café intérieur Menzah"/></div>
+                            </OwlCarousel>
+                        </div>
+                    </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
         )
     }
