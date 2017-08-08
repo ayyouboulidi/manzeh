@@ -22,7 +22,7 @@ export default class Header extends Component {
                 <div className=" hidden-md-up container">
                     <div className="row mt-2">
                         <div className="col-10">
-                            <Link to="/"><img src="/img/logo.jpeg" style={{width: "70px", height:"70px"}} alt="" /></Link>
+                            <Link to="/"><img src="/img/logo.png" style={{width: "70px", height:"70px"}} alt="" /></Link>
                         </div>
                         <div className="col-2 clickable" onClick={this.togglemenu}>
                             <img src="/img/menu.png" style={{width: "50px", height:"50px"}} alt="menu"/>
@@ -77,7 +77,7 @@ export default class Header extends Component {
                         </div>
                         <div className="col-md-2 align-self-center">
                             <Link to="/" className="link d-flex">
-                                <img src="/img/logo.jpeg" className="align-items-center" style={{width: "70px", height:"70px", display:'block', margin:'auto'}} alt="logo" />
+                                <img src="/img/logo.png" className="align-items-center" style={{width: "70px", height:"70px", display:'block', margin:'auto'}} alt="logo" />
                             </Link>
                         </div>
                         <div className="col-md-2 align-self-center">
