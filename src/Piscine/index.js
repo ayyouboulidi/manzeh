@@ -23,15 +23,6 @@ export default class Piscine extends Component {
                     </div>
                     <div className="row mt-3">
                         <div className="col-10">
-                            <div className="title">Piscine pour Hommes</div>
-                            <div className="description"> Du Lundi au Dimanche 7h-18h </div>
-                        </div>
-                        <div className="col-2">
-                            <div className="title">50 DH</div>
-                        </div>
-                    </div>
-                    <div className="row mt-3">
-                        <div className="col-10">
                             <div className="title">Piscine pour Femmes</div>
                             <div className="description"> Du Lundi au Dimanche 7h-18h </div>
                         </div>
@@ -41,7 +32,7 @@ export default class Piscine extends Component {
                     </div>
                     <div className="row mt-3">
                         <div className="col-10">
-                            <div className="title">Enfants</div>
+                            <div className="title">Piscine pour Enfants</div>
                             <div className="description"> Du Lundi au Dimanche 7h-18h </div>
                         </div>
                         <div className="col-2">
