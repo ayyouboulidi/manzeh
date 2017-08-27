@@ -24,12 +24,13 @@ export default class Galerie extends Component {
                                 <div className="owl-item"><img src="/img/piscine.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/cafe.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/paysage.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/paysage2.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/paysage3.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/paysage 4.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/paysage4.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/paysage 5.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/piscine.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/paysage6.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/paysage7.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/piscine2.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/piscine3.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/piscine4.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/piscine 2.jpg" alt="café intérieur Menzah"/></div>
                             </OwlCarousel>
                         </div>
@@ -38,16 +39,17 @@ export default class Galerie extends Component {
                                 <div className="owl-item"><img src="/img/cafe-interieur.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/cafe-interieur-2.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/paysage2.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/paysage3.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/piscine.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/cafe.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/paysage.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/paysage2.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/paysage3.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/paysage 4.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/paysage4.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/paysage 5.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/piscine.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/paysage6.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/paysage7.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/piscine2.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/piscine3.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/piscine4.jpg" alt="café intérieur Menzah"/></div>
                                 <div className="owl-item"><img src="/img/piscine 2.jpg" alt="café intérieur Menzah"/></div>
                             </OwlCarousel>
                         </div>

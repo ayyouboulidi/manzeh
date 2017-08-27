@@ -27,7 +27,7 @@ export default class Home extends Component {
 					 <div className="container-fluid p-0">
 						<div className="row">
 							<div className="col" style={{marginBottom: "10px"}}>
-								<Tile img="/img/paysage2.jpg" to="/galerie-photo" height="200px">	
+								<Tile img="/img/paysage4.jpg" to="/galerie-photo" height="200px">	
 									<div>
 										<p className="title">Photothèque</p>
 										<p className="description">Quelques photos</p>
@@ -41,7 +41,7 @@ export default class Home extends Component {
 						</div>
 						<div className="row">
 							<div className="col">
-								<Tile img="/img/piscine2.jpg" to="/piscine" height="200px">	
+								<Tile img="/img/piscine4.jpg" to="/piscine" height="200px">	
 									<div>
 										<p className="title">Piscine</p>
 										<p className="description">Bronzez-vous!</p>
@@ -56,19 +56,7 @@ export default class Home extends Component {
 				</div> 
 			</div>
 			  <div className="row">
-				<div className="col-md-3 col-12 py-2">
-					<Tile img="/img/cafe-interieur.jpg" to="/le-resto" height="200px">	
-						<div>
-							<p className="title">Le restaurant</p>
-							<p className="description">paysages</p>
-						</div>
-						<div>
-							<p className="title">Découvrez</p>
-							<p className="description">Les alentours </p>
-						</div>
-					</Tile>
-				</div>
-				<div className="col-md-3 col-12 py-2">
+				<div className="col-md-6 col-12 py-2">
 					<Tile img="http://www.cepagegourmand.fr/wp-content/uploads/2014/08/IMG_1141.jpg" to="/la-carte" height="200px">	
 						<div>
 							<p className="title">La carte</p>
