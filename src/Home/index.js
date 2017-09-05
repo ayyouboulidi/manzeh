@@ -57,7 +57,7 @@ export default class Home extends Component {
 			</div>
 			  <div className="row">
 				<div className="col-md-6 col-12 py-2">
-					<Tile img="http://www.cepagegourmand.fr/wp-content/uploads/2014/08/IMG_1141.jpg" to="/la-carte" height="200px">	
+					<Tile img="/img/16.jpg" to="/la-carte" height="200px">	
 						<div>
 							<p className="title">La carte</p>
 							<p className="description">Une cuisine de saison</p>
@@ -69,7 +69,7 @@ export default class Home extends Component {
 					</Tile>
 				</div>
 				<div className="col-md-6 col-12 py-2">
-					<Tile img="http://www.cepagegourmand.fr/wp-content/uploads/2014/08/IMG_1101.jpg" to="/reservation" height="200px">	
+					<Tile img="/img/17.jpg" to="/reservation" height="200px">	
 						<div>
 							<p className="title">Réservez votre table</p>
 							<p className="description">en un appel ou message</p>
