@@ -3,12 +3,14 @@ import Header from '../Header';
 import Tile from '../Tile';
 import './Home.css';
 import Footer from '../Footer';
+import MetaData from '../metadata';
 
 export default class Home extends Component {
     render(){
         return(
 		<div>
 		<Header />
+		<MetaData title="Menzah Resto café" meta={[{ name: "robots", content: "index,follow" }]}/>
 		<div className="container mt-5">
 			<div className="row">
 				<div className="col-md-6 col-12 py-2">

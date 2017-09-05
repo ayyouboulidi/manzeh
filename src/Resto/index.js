@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
 import OwlCarousel from 'react-owl-carousel';
+import MetaData from '../metadata';
 import './Resto.css';
 
 export default class Resto extends Component {
@@ -9,6 +10,7 @@ export default class Resto extends Component {
         return (
            <div>
                 <Header />
+                <MetaData title="Restaurant - Menzah Resto café - le Resto" meta={[{ name: "robots", content: "index,follow" }]}/>
                 <div className="container my-5">
                     <div className="row d-flex justify-content-center">
                         <div className="col-md-10 col-md-offset-1 d-flex justify-content-center">

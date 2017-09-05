@@ -3,12 +3,14 @@ import Header from '../Header';
 import './Piscine.css';
 import OwlCarousel from 'react-owl-carousel';
 import Footer from '../Footer';
+import MetaData from '../metadata';
 
 export default class Piscine extends Component {
     render () {
         return (
             <div>
                 <Header />
+                <MetaData title="Piscine - Menzah Resto café - la piscine" meta={[{ name: "robots", content: "index,follow" }]}/>
                 <div className="container my-5">
                     <div className="row d-flex justify-content-center">
                         <div className="col-md-10 col-md-offset-1 d-flex justify-content-center">
