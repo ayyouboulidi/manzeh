@@ -69,16 +69,16 @@ export default class Piscine extends Component {
                     <div className="row mt-3">
                        <div className="hidden-sm-down col-12">
                             <OwlCarousel className="owl-theme" loop margin={10} autoplay items={2}>
-                                <div className="owl-item"><img src="/img/piscine 2.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/piscine3.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/piscine.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/11.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/14.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/12.jpg" alt="café intérieur Menzah"/></div>
                             </OwlCarousel>
                         </div>
                         <div className="hidden-md-up col-12">
                             <OwlCarousel className="owl-theme" loop margin={10} autoplay items={1}>
-                                <div className="owl-item"><img src="/img/piscine 2.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/piscine3.jpg" alt="café intérieur Menzah"/></div>
-                                <div className="owl-item"><img src="/img/piscine.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/11.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/14.jpg" alt="café intérieur Menzah"/></div>
+                                <div className="owl-item"><img src="/img/12.jpg" alt="café intérieur Menzah"/></div>
                             </OwlCarousel>
                         </div>
                     </div>

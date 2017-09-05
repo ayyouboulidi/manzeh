@@ -12,7 +12,7 @@ export default class Home extends Component {
 		<div className="container mt-5">
 			<div className="row">
 				<div className="col-md-6 col-12 py-2">
-					<Tile img="/img/cafe.jpg" to="/le-resto" height="410px">	
+					<Tile img="/img/1.jpg" to="/le-resto" height="410px">	
 						<div>
 							<p className="title">Découvrez le restaurant</p>
 							<p className="description">en famille, entre collègues, entre amis ...</p>
@@ -27,7 +27,7 @@ export default class Home extends Component {
 					 <div className="container-fluid p-0">
 						<div className="row">
 							<div className="col" style={{marginBottom: "10px"}}>
-								<Tile img="/img/paysage4.jpg" to="/galerie-photo" height="200px">	
+								<Tile img="/img/8.jpg" to="/galerie-photo" height="200px">	
 									<div>
 										<p className="title">Photothèque</p>
 										<p className="description">Quelques photos</p>
@@ -41,7 +41,7 @@ export default class Home extends Component {
 						</div>
 						<div className="row">
 							<div className="col">
-								<Tile img="/img/piscine4.jpg" to="/piscine" height="200px">	
+								<Tile img="/img/15.jpg" to="/piscine" height="200px">	
 									<div>
 										<p className="title">Piscine</p>
 										<p className="description">Bronzez-vous!</p>
