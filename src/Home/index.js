@@ -57,7 +57,7 @@ export default class Home extends Component {
 			</div>
 			  <div className="row">
 				<div className="col-md-6 col-12 py-2">
-					<Tile img="/img/16.jpg" to="/la-carte" height="200px">	
+					<Tile img="/img/18.jpg" to="/la-carte" height="200px">	
 						<div>
 							<p className="title">La carte</p>
 							<p className="description">Une cuisine de saison</p>
