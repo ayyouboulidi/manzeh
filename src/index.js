@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import registerServiceWorker from './registerServiceWorker';
 import { browserHistory } from 'react-router';
 import Routes from './Routes';
 import jQuery from 'jquery';
-import registerServiceWorker from './registerServiceWorker';
+import './index.css';
 
 global.$ = global.jQuery = jQuery;
 
