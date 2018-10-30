@@ -10,7 +10,7 @@ export default class Resto extends Component {
         return (
            <div>
                 <Header />
-                <MetaData title="Restaurant - Menzah Resto café - le Resto" meta={[{ name: "robots", content: "index,follow" }]}/>
+                <MetaData title="Restaurant - Menzah sidi harazem Resto café - le Resto" meta={[{ name: "robots", content: "index,follow" }]}/>
                 <div className="container my-5">
                     <div className="row d-flex justify-content-center">
                         <div className="col-md-10 col-md-offset-1 d-flex justify-content-center">
