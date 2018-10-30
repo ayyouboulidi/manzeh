@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://menzah-sidi-harazem.herokuapp.com/</loc>
-    <lastmod>2017-09-01</lastmod>
+    <loc>http://www.menzah-sidi-harazem.com</loc>
+    <lastmod>2018-09-01</lastmod>
     <changefreq>Monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://menzah-sidi-harazem.herokuapp.com/le-resto</loc>
-    <lastmod>2017-09-01</lastmod>
+    <loc>http://www.menzah-sidi-harazem.com/le-resto</loc>
+    <lastmod>2018-09-01</lastmod>
     <changefreq>Monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://menzah-sidi-harazem.herokuapp.com/galerie-photo</loc>
-    <lastmod>2017-09-01</lastmod>
+    <loc>http://www.menzah-sidi-harazem.com/galerie-photo</loc>
+    <lastmod>2018-09-01</lastmod>
     <changefreq>Monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://menzah-sidi-harazem.herokuapp.com/la-carte</loc>
-    <lastmod>2017-09-01</lastmod>
+    <loc>http://www.menzah-sidi-harazem.com/la-carte</loc>
+    <lastmod>2018-09-01</lastmod>
     <changefreq>Monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://menzah-sidi-harazem.herokuapp.com/piscine</loc>
-    <lastmod>2017-09-01</lastmod>
+    <loc>http://www.menzah-sidi-harazem.com/piscine</loc>
+    <lastmod>2018-09-01</lastmod>
     <changefreq>Monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://menzah-sidi-harazem.herokuapp.com/reservation</loc>
-    <lastmod>2017-09-01</lastmod>
+    <loc>http://www.menzah-sidi-harazem.com/reservation</loc>
+    <lastmod>2018-09-01</lastmod>
     <changefreq>Monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>1</priority>
   </url>
 </urlset>
