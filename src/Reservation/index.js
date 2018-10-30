@@ -9,7 +9,7 @@ export default class Reservation extends Component {
         return (
             <div>
                 <Header />
-                <MetaData title="Réservation - Menzah sidi harazem Resto café - Réservez votre table" meta={[{ name: "robots", content: "index,follow" }]}/>
+                <MetaData title="Réservation -restaurant restau fès sidi harazem menzeh manzeh manzah menzah café piscine Resto - Réservez votre table" meta={[{ name: "robots", content: "index,follow" }]}/>
                 <div className="container my-5">
                     <div className="row d-flex justify-content-center">
                         <div className="col-md-10 col-md-offset-1 d-flex justify-content-center">

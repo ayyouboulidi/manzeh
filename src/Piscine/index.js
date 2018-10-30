@@ -10,7 +10,7 @@ export default class Piscine extends Component {
         return (
             <div>
                 <Header />
-                <MetaData title="Piscine - Menzah sidi harazem Resto café - la piscine" meta={[{ name: "robots", content: "index,follow" }]}/>
+                <MetaData title="Piscine -restaurant restau fès sidi harazem menzeh manzeh manzah menzah café piscine Resto- la piscine" meta={[{ name: "robots", content: "index,follow" }]}/>
                 <div className="container my-5">
                     <div className="row d-flex justify-content-center">
                         <div className="col-md-10 col-md-offset-1 d-flex justify-content-center">

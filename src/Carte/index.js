@@ -9,7 +9,7 @@ export default class Carte extends Component {
         return (
             <div>
                 <Header />
-                <MetaData title="Carte - Menzah sidi harazem Resto café - les prix à la carte" meta={[{ name: "robots", content: "index,follow" }]}/>
+                <MetaData title="Carte - restaurant restau fès sidi harazem menzeh manzeh manzah menzah café piscine Resto - les prix à la carte" meta={[{ name: "robots", content: "index,follow" }]}/>
                 <div className="container my-5">
                     <div className="row d-flex justify-content-center">
                         <div className="col-md-10 col-md-offset-1 d-flex justify-content-center">
