@@ -10,7 +10,12 @@ export default class Home extends Component {
         return(
 		<div>
 		<Header />
-		<MetaData title="restaurant restau fès sidi harazem menzeh manzeh manzah menzah café piscine Resto" meta={[{ name: "robots", content: "index,follow" }]}/>
+		<MetaData 
+			title="restaurant restau fès sidi harazem menzeh manzeh manzah menzah café piscine Resto" 
+			meta={[
+                    { name: "robots", content: "index,follow" },
+                    { name: "description", content: "Le restaurant & piscine Menzah Sidi harazem pas loin de Fès, pour vivre des moments incroyable." }
+            ]}/>
 		<div className="container mt-5">
 			<div className="row">
 				<div className="col-md-6 col-12 py-2">

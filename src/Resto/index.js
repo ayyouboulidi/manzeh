@@ -10,7 +10,12 @@ export default class Resto extends Component {
         return (
            <div>
                 <Header />
-                <MetaData title="Restaurant -restaurant restau fès sidi harazem menzeh manzeh manzah menzah café piscine Resto - le Resto" meta={[{ name: "robots", content: "index,follow" }]}/>
+                <MetaData 
+                    title="Restaurant -restaurant restau fès sidi harazem menzeh manzeh manzah menzah café piscine Resto - le Resto" 
+                    meta={[
+                        { name: "robots", content: "index,follow" },
+                        { name: "description", content: "Pour des repas faites par notre chef, venez diguster les meilleurs plats du restaurant Menzah Sidi harazem." }
+                    ]}/>
                 <div className="container my-5">
                     <div className="row d-flex justify-content-center">
                         <div className="col-md-10 col-md-offset-1 d-flex justify-content-center">
